@@ -19,8 +19,21 @@
   color: #fff;
 }
 
+.dot {
+  background: rgb(253, 212, 68); 
+  border-radius: 50%;
+  display:block;
+  padding-top: -200px;
+  width:200px;
+  height:200px;
+  left: -60px;
+  top: 150px;
+  position: relative;
+  z-index: -10;
+}
+
 .progress {
-  background-color: #ffcc02;
+  background-color: rgb(253, 212, 68);
   color: #fff;
   padding-bottom: 5rem;
 }
@@ -34,9 +47,14 @@
   margin-bottom: 2rem;
 }
 
+.contact-image {
+  max-width:90%;
+  margin-bottom: 2rem;
+}
+
 .about {
   color: #fff;
-  background-color: #ffcc02;
+  background-color: rgb(253, 212, 68);
   text-align: left
 }
 
@@ -48,13 +66,13 @@
 /* Bigger than 550 */
 @media (min-width: 550px) {
   .section {
-    padding: 12rem 0 11rem;
+    padding: 0 0 7rem;
   }
-  .hero {
+  /* .hero {
     padding-bottom: 12rem;
     text-align: left;
     height: 165px;
-  }
+  } */
   .hero-heading {
     font-size: 2.4rem;
   }
@@ -69,21 +87,21 @@
     font-size: 2.6rem;
   }
   .section {
-    padding: 14rem 0 15rem;
+    padding: 0 0 9rem;
   }
-  .hero {
+  /* .hero {
     padding: 16rem 0 14rem;
-  }
+  } */
 }
 
 /* Bigger than 1000 */
 @media (min-width: 1000px) {
   .section {
-    padding: 20rem 0 19rem;
+    padding: 0 0 10rem;
   }
-  .hero {
+  /* .hero {
     padding: 22rem 0;
-  }
+  } */
   .hero-heading {
     font-size: 3.0rem;
   }
