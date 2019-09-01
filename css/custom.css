@@ -20,7 +20,7 @@
 }
 
 .progress {
-  background-color: #ffcc02;
+  background-color: rgb(253, 212, 68);
   color: #fff;
   padding-bottom: 5rem;
 }
@@ -36,7 +36,7 @@
 
 .about {
   color: #fff;
-  background-color: #ffcc02;
+  background-color: rgb(253, 212, 68);
   text-align: left
 }
 
