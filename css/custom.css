@@ -34,6 +34,11 @@
   margin-bottom: 2rem;
 }
 
+.contact-image {
+  max-width:90%;
+  margin-bottom: 2rem;
+}
+
 .about {
   color: #fff;
   background-color: rgb(253, 212, 68);
