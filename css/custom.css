@@ -19,6 +19,19 @@
   color: #fff;
 }
 
+.dot {
+  background: rgb(253, 212, 68); 
+  border-radius: 50%;
+  display:block;
+  padding-top: -200px;
+  width:200px;
+  height:200px;
+  left: -60px;
+  top: 150px;
+  position: relative;
+  z-index: -10;
+}
+
 .progress {
   background-color: rgb(253, 212, 68);
   color: #fff;
