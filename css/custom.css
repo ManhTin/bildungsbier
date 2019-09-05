@@ -23,7 +23,7 @@
 }
 
 .dot {
-  background: rgb(253, 212, 68); 
+  background: rgb(254, 213, 48); 
   border-radius: 50%;
   display:block;
   padding-top: -200px;
@@ -35,12 +35,6 @@
   z-index: -10;
 }
 
-.progress {
-  background-color: rgb(253, 212, 68);
-  color: #fff;
-  padding-bottom: 5rem;
-}
-
 .text {
   text-align: left
 }
@@ -50,16 +44,15 @@
   margin-bottom: 2rem;
 }
 
+.info {
+  text-align: left;
+  margin-top: 4rem
+}
+
 .contact-image {
   max-height: 310px;
   max-width: 100%;
   margin-bottom: 2rem;
-}
-
-.about {
-  color: #fff;
-  background-color: rgb(253, 212, 68);
-  text-align: left
 }
 
 .footer {
@@ -72,11 +65,11 @@
   .section {
     padding: 0 0 7rem;
   }
-  /* .hero {
-    padding-bottom: 12rem;
+  .hero {
+    padding-bottom: 10rem;
     text-align: left;
     height: 165px;
-  } */
+  }
   .hero-heading {
     font-size: 2.4rem;
   }
@@ -93,9 +86,9 @@
   .section {
     padding: 0 0 9rem;
   }
-  /* .hero {
-    padding: 16rem 0 14rem;
-  } */
+  .hero {
+    padding: 12rem 0;
+  }
 }
 
 /* Bigger than 1000 */
@@ -103,9 +96,9 @@
   .section {
     padding: 0 0 10rem;
   }
-  /* .hero {
-    padding: 22rem 0;
-  } */
+  .hero {
+    padding: 15rem 0;
+  }
   .hero-heading {
     font-size: 3.0rem;
   }
