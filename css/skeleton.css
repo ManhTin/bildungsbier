@@ -161,7 +161,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: rgb(221, 125, 0); }
+  color: rgb(202, 121, 59); }
 a:hover {
   color: #0FA0CE; }
 
@@ -209,8 +209,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: rgb(253, 212, 68);
-  border-color: rgb(253, 212, 68); }
+  background-color: rgb(254, 213, 48);
+  border-color: rgb(254, 213, 48); }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
