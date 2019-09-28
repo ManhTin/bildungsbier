@@ -176,7 +176,7 @@ input, select, textarea {
     -ms-transition: border-bottom-color 0.25s ease-in-out;
     transition: border-bottom-color 0.25s ease-in-out;
     text-decoration: none;
-    color: #1c272e;
+    color: #ca793b;;
     border-bottom: dotted 1px;
   }
 
@@ -225,12 +225,13 @@ input, select, textarea {
 
   h2 {
     font-size: 1.25rem;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0 0 2rem 0;
   }
 
   h3 {
     font-size: 0.875rem;
+    font-weight: 600;
   }
 
   h4 {
@@ -2796,9 +2797,9 @@ input, select, textarea {
       border-right: 0;
     }
 
-      table tbody tr:nth-child(2n + 1) {
-        background-color: rgba(144, 144, 144, 0.1);
-      }
+      /* table tbody tr:nth-child(2n + 1) {
+        background-color: rgba(214, 214, 214, 0.089);
+      } */
 
     table td {
       padding: 0.75rem 0.75rem;
