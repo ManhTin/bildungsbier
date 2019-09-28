@@ -1,0 +1,105 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 0 0 7rem;
+  text-align: center;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+  background-image: url("../images/hero-cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 25rem;
+}
+
+.dot {
+  background: rgb(254, 213, 48); 
+  border-radius: 50%;
+  display:block;
+  padding-top: -200px;
+  width:200px;
+  height:200px;
+  left: -60px;
+  top: 150px;
+  position: relative;
+  z-index: -10;
+}
+
+.text {
+  text-align: left
+}
+
+.text-image {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.info {
+  text-align: left;
+  margin-top: 4rem
+}
+
+.contact-image {
+  max-height: 310px;
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.footer {
+  height: 5rem;
+  padding: auto;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 0 0 7rem;
+  }
+  .hero {
+    padding-bottom: 10rem;
+    text-align: left;
+    height: 165px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 190px;
+  }
+  .hero-heading {
+    font-size: 2.6rem;
+  }
+  .section {
+    padding: 0 0 9rem;
+  }
+  .hero {
+    padding: 12rem 0;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 0 0 10rem;
+  }
+  .hero {
+    padding: 15rem 0;
+  }
+  .hero-heading {
+    font-size: 3.0rem;
+  }
+}
