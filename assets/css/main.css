@@ -2523,6 +2523,17 @@ input, select, textarea {
         width: 100%;
       }
 
+      .image.contact {
+        max-width: 100%;
+        margin-bottom: 2rem;
+        width: auto;
+        height: auto;
+      }
+
+      .info.contact {
+        text-align: left;
+      }
+
 /* List */
 
   ol {
