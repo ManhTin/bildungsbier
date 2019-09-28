@@ -3443,11 +3443,11 @@ input, select, textarea {
     @media screen and (max-width: 1152px) {
 
       #wrapper > section.intro > header > * {
-        margin-left: calc(50vw - 38rem);
+        margin-left: calc(50vw - 39rem);
       }
 
       #wrapper > section.intro > header:before {
-        margin-left: 0;
+        margin-left: calc(50vw - 38rem);
       }
 
     }
@@ -3506,7 +3506,7 @@ input, select, textarea {
           }
 
         #wrapper > section.intro > header > * {
-          width: 21rem;
+          margin-left: calc(50vw - 38rem);
         }
 
         #wrapper > section.intro > header:before {
