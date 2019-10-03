@@ -3894,6 +3894,7 @@ input, select, textarea {
   }
 
 /* Stickyness */
+  @media screen and (min-width: 1153px) {
 	.sticky{
 	position: -webkit-sticky;
 	position: sticky;
@@ -3905,3 +3906,4 @@ input, select, textarea {
 	.child{
 		padding-top: 130px;
 	}
+  }
