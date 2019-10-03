@@ -3415,11 +3415,11 @@ input, select, textarea {
       }
 
       #wrapper section > .content {
-        padding: 0 5rem;
+        padding: 40px 5rem;
       }
 
       #wrapper section > footer {
-        padding: 0 10rem;
+        padding: 0 6rem;
       }
 
     #wrapper > section > header:before {
