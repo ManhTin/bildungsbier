@@ -103,7 +103,7 @@ input, select, textarea {
   }
 
   body {
-    background: #ffffff;
+    background: #fcfcfc;
     /* overflow-x: hidden; */
   }
 
@@ -215,7 +215,7 @@ input, select, textarea {
 
   h1 {
     font-family: "Raleway", Helvetica, sans-serif;
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: -0.05em;
     line-height: 1.1;
@@ -249,7 +249,7 @@ input, select, textarea {
   @media screen and (max-width: 736px) {
 
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       line-height: 1.1;
     }
 
@@ -275,7 +275,7 @@ input, select, textarea {
   @media screen and (max-width: 360px) {
 
     h1 {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
     }
 
     h2 {
