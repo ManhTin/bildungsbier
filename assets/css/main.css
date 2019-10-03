@@ -246,6 +246,19 @@ input, select, textarea {
     font-size: 0.625rem;
   }
 
+  @media screen and (max-width: 1366px) {
+
+    h1 {
+      font-size: 2.5rem;
+      line-height: 1.1;
+    }
+
+    h2 {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+  }
+  
   @media screen and (max-width: 736px) {
 
     h1 {
@@ -1884,8 +1897,8 @@ input, select, textarea {
     input[type="button"]:hover,
     button:hover,
     .button:hover {
-      box-shadow: inset 0 0 0 2px #2ee4bb;
-      color: #2ee4bb !important;
+      box-shadow: inset 0 0 0 2px #fed530;
+      color: #fed530 !important;
     }
 
     input[type="submit"]:active,
@@ -1893,9 +1906,9 @@ input, select, textarea {
     input[type="button"]:active,
     button:active,
     .button:active {
-      background-color: rgba(73, 252, 212, 0.25);
-      box-shadow: inset 0 0 0 2px #2ee4bb;
-      color: #2ee4bb !important;
+      background-color: rgba(254, 213, 48, 0.25);
+      box-shadow: inset 0 0 0 2px rgb(254, 213, 48);
+      color: #fed530 !important;
     }
 
     input[type="submit"].small,
@@ -1972,7 +1985,7 @@ input, select, textarea {
       input[type="button"].primary:hover,
       button.primary:hover,
       .button.primary:hover {
-        background-color: #93ffe7;
+        background-color: #e7c332;
       }
 
       input[type="submit"].primary:active,
@@ -1980,7 +1993,7 @@ input, select, textarea {
       input[type="button"].primary:active,
       button.primary:active,
       .button.primary:active {
-        background-color: #44f2cb;
+        background-color: #e7c332;
       }
 
     @media screen and (max-width: 736px) {
@@ -2136,7 +2149,7 @@ input, select, textarea {
     input[type="url"]:focus,
     select:focus,
     textarea:focus {
-      border-color: #2ee4bb;
+      border-color: #fed530;
     }
 
   label {
@@ -3893,17 +3906,17 @@ input, select, textarea {
 
   }
 
-/* Stickyness */
+  /* Stickyness */
   @media screen and (min-width: 1153px) {
-	.sticky{
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	z-index: 9;
-	padding-top: 40px;
-	}
+    .sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    padding-top: 40px;
+    }
 
-	.child{
-		padding-top: 130px;
-	}
+    .child{
+      padding-top: 130px;
+    }
   }
