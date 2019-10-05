@@ -103,7 +103,7 @@ input, select, textarea {
   }
 
   body {
-    background: #ffffff;
+    background: #fcfcfc;
     /* overflow-x: hidden; */
   }
 
@@ -215,7 +215,7 @@ input, select, textarea {
 
   h1 {
     font-family: "Raleway", Helvetica, sans-serif;
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: 700;
     letter-spacing: -0.05em;
     line-height: 1.1;
@@ -246,10 +246,23 @@ input, select, textarea {
     font-size: 0.625rem;
   }
 
+  @media screen and (max-width: 1366px) {
+
+    h1 {
+      font-size: 2.5rem;
+      line-height: 1.1;
+    }
+
+    h2 {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+  }
+  
   @media screen and (max-width: 736px) {
 
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
       line-height: 1.1;
     }
 
@@ -275,7 +288,7 @@ input, select, textarea {
   @media screen and (max-width: 360px) {
 
     h1 {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
     }
 
     h2 {
@@ -1884,8 +1897,8 @@ input, select, textarea {
     input[type="button"]:hover,
     button:hover,
     .button:hover {
-      box-shadow: inset 0 0 0 2px #2ee4bb;
-      color: #2ee4bb !important;
+      box-shadow: inset 0 0 0 2px #fed530;
+      color: #fed530 !important;
     }
 
     input[type="submit"]:active,
@@ -1893,9 +1906,9 @@ input, select, textarea {
     input[type="button"]:active,
     button:active,
     .button:active {
-      background-color: rgba(73, 252, 212, 0.25);
-      box-shadow: inset 0 0 0 2px #2ee4bb;
-      color: #2ee4bb !important;
+      background-color: rgba(254, 213, 48, 0.25);
+      box-shadow: inset 0 0 0 2px rgb(254, 213, 48);
+      color: #fed530 !important;
     }
 
     input[type="submit"].small,
@@ -1972,7 +1985,7 @@ input, select, textarea {
       input[type="button"].primary:hover,
       button.primary:hover,
       .button.primary:hover {
-        background-color: #93ffe7;
+        background-color: #e7c332;
       }
 
       input[type="submit"].primary:active,
@@ -1980,7 +1993,7 @@ input, select, textarea {
       input[type="button"].primary:active,
       button.primary:active,
       .button.primary:active {
-        background-color: #44f2cb;
+        background-color: #e7c332;
       }
 
     @media screen and (max-width: 736px) {
@@ -2136,7 +2149,7 @@ input, select, textarea {
     input[type="url"]:focus,
     select:focus,
     textarea:focus {
-      border-color: #2ee4bb;
+      border-color: #fed530;
     }
 
   label {
@@ -2346,6 +2359,7 @@ input, select, textarea {
 
     .icon.brands:before {
       font-family: 'Font Awesome 5 Brands';
+      color: #000000;
     }
 
 /* Image */
@@ -2852,9 +2866,9 @@ input, select, textarea {
   a.arrow {
     border-bottom: 0;
     display: inline-block;
-    height: 4rem;
+    height: 2rem;
     position: relative;
-    width: 6rem;
+    width: 3rem;
   }
 
     a.arrow .label {
@@ -3246,14 +3260,14 @@ input, select, textarea {
       left: 0;
       position: absolute;
       top: 0;
-      width: 50vw;
+      width: 35vw;
       z-index: -1;
     }
 
     #wrapper section {
       display: grid;
       grid-template-areas: "header content" "footer content";
-      grid-template-columns: 50vw 50vw;
+      grid-template-columns: 35vw 65vw;
       grid-template-rows: 1fr;
     }
 
@@ -3365,7 +3379,7 @@ input, select, textarea {
         }
 
           #wrapper > section.intro > header > * {
-            margin-left: calc(50vw - 42rem);
+            margin-left: calc(35vw - 42rem);
           }
 
           #wrapper > section.intro > header:before {
@@ -3396,9 +3410,9 @@ input, select, textarea {
     #wrapper .copyright {
       color: rgba(0, 0, 0, 0.25);
       font-size: 1rem;
-      left: 50vw;
+      left: 35vw;
       position: relative;
-      width: 50vw;
+      width: 35vw;
     }
 
       #wrapper .copyright a {
@@ -3415,16 +3429,16 @@ input, select, textarea {
       }
 
       #wrapper section > .content {
-        padding: 0 5rem;
+        padding: 40px 5rem;
       }
 
       #wrapper section > footer {
-        padding: 0 10rem;
+        padding: 0 6rem;
       }
 
     #wrapper > section > header:before {
       height: calc(100% + 10rem);
-      left: calc(50vw - 5rem);
+      left: calc(35vw - 5rem);
     }
 
     #wrapper > section > header h1:before, #wrapper > section > header h2:before {
@@ -3445,27 +3459,27 @@ input, select, textarea {
       }
 
     #wrapper > section.intro > header > * {
-      margin-left: calc(50vw - 42rem);
+      margin-left: calc(35vw - 42rem);
     }
 
     #wrapper > section.intro > header:before {
-      margin-left: calc(50vw - 10rem);
+      margin-left: calc(35vw - 10rem);
     }
 
     @media screen and (max-width: 1152px) {
 
       #wrapper > section.intro > header > * {
-        margin-left: calc(50vw - 39rem);
+        margin-left: calc(35vw - 39rem);
       }
 
       #wrapper > section.intro > header:before {
-        margin-left: calc(50vw - 38rem);
+        margin-left: calc(35vw - 38rem);
       }
 
     }
 
     #wrapper > section:last-of-type > header:after {
-      left: calc(50vw - 5rem - 0.25rem + 1px);
+      left: calc(35vw - 5rem - 0.25rem + 1px);
     }
 
     #wrapper .copyright {
@@ -3497,7 +3511,7 @@ input, select, textarea {
 
         #wrapper > section > header:before {
           height: calc(100% + 8rem);
-          left: calc(50vw - 4rem);
+          left: calc(35vw - 4rem);
         }
 
         #wrapper > section > header h1:before, #wrapper > section > header h2:before {
@@ -3518,11 +3532,11 @@ input, select, textarea {
           }
 
         #wrapper > section.intro > header > * {
-          margin-left: calc(50vw - 38rem);
+          margin-left: calc(35vw - 38rem);
         }
 
         #wrapper > section.intro > header:before {
-          margin-left: calc(50vw - 8rem);
+          margin-left: calc(35vw - 8rem);
         }
 
     }
@@ -3542,7 +3556,7 @@ input, select, textarea {
     @media screen and (max-width: 1280px) {
 
         #wrapper > section:last-of-type > header:after {
-          left: calc(50vw - 4rem - 0.25rem + 1px);
+          left: calc(35vw - 4rem - 0.25rem + 1px);
         }
 
         #wrapper .copyright {
@@ -3867,15 +3881,15 @@ input, select, textarea {
   }
 
     body.is-ie #wrapper section > header {
-      width: 50%;
+      width: 35%;
     }
 
     body.is-ie #wrapper section > .content {
-      width: 50%;
+      width: 35%;
     }
 
     body.is-ie #wrapper section > footer {
-      width: 50%;
+      width: 35%;
       text-align: left;
       margin-left: 50%;
       padding: 5rem;
@@ -3893,15 +3907,17 @@ input, select, textarea {
 
   }
 
-/* Stickyness */
-	.sticky{
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	z-index: 9;
-	padding-top: 40px;
-	}
+  /* Stickyness */
+  @media screen and (min-width: 1153px) {
+    .sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    padding-top: 40px;
+    }
 
-	.child{
-		padding-top: 130px;
-	}
+    .child{
+      padding-top: 130px;
+    }
+  }
